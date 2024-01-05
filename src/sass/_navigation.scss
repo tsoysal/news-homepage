@@ -31,7 +31,9 @@
 
     .mobile-menu-btn {
         display: none;
+        cursor: poniter;
     }
+
     .mobile-menu {
         display: none;
     }
@@ -40,11 +42,44 @@
 
 //Mobile Menu
 
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+
+    .mobile-menu-close-btn {
+        text-align: end;
+        padding: 25px;
+        img {
+            cursor: pointer;
+        }
+    }
+
+    ul {
+        margin-top: 50px;
+        margin-left: 10px;
+
+        li a{
+            display: inline-block;
+            width: 100%;
+            padding: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
 @media screen and (max-width: 700px){
     .nav-menu {
         display: none !important;
     }
     .mobile-menu-btn {
         display: block !important;
+        cursor: pointer;
+        padding: 15px;
     }
 }
