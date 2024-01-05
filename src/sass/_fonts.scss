@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/static/Inter-Regular.ttf") format('.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/static/Inter-Bold.ttf") format('.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/static/Inter-ExtraBold.ttf") format('.ttf');
+    font-weight: 900;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
